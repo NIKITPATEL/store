@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+
+
+body{
+    background-color: whitesmoke;
+    
+    background-position: center;
+    background-size: cover;
+    
+
+}
+
+.header{
+    
+    background-image: url(shop.jpg);
+    background-size: cover;
+    filter: blur();
+    padding: 60px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'OCR A Std', sans-serif;
+    border: 4px solid #000; /* Replace #000 with the desired border color */
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: multiply;
+    margin-bottom: 20px;
+    font-size: 40px;
+    
+    
+}
+.title{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.images{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.images img{
+
+    width: 200px;
+    height: 200px;
+    padding: 3px;
+    margin-left: 3px;
+}
+
+
+
+
+
+
+.info h4{
+    font-size: xx-large;
+    font-family: 'OCR A Std', sans-serif;
+    font-weight: 900;
+  }
+.info{
+    padding: 30px;
+    text-align: center;
+    color: grey;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .contact{
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2vw;
+    color: grey;
+
+    
+  }
+
+
+
+.store h1{ 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    text-align: center;
+    font-size:2vw;   
+}
+
+.store{ 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    float:left;
+    padding-right: vw;
+
+}
+
+
+.location{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    text-align: center;
+
+}
+.store1{
+    float: left;
+    padding-left: 25vw;
+}
+.map{
+    justify-items: center;
+}
