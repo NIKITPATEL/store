@@ -1,0 +1,309 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+
+body{
+    background-color: whitesmoke;   
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+  text-align: center;
+}
+
+
+
+.header{
+    background-image: url(shop.jpg);
+    background-size: cover;
+    filter: blur();
+    padding: 60px;
+    color: whitesmoke;
+    text-align: center;
+    
+    font-family: 'OCR A Std', sans-serif;
+    border: 4px solid #000; /* Replace #000 with the desired border color */
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: multiply;
+    margin-bottom: 20px;
+    font-size: 40px;
+       
+}
+
+
+.title{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.images{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.images img{
+    width: 200px;
+    height: 200px;
+    padding: 3px;
+    margin-left: 3px;
+}
+
+
+.info h4{
+    font-size: xx-large;
+    font-family: 'OCR A Std', sans-serif;
+    font-weight: 900;
+}
+
+.info{
+    padding: 30px;
+    text-align: center;
+    color: grey;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.contact{
+    text-align: center;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 5vw;
+    color: grey;
+}
+  
+
+.column{
+    display: flex; 
+}
+
+.box{
+    width: 300px;
+    height: 200px;
+    flex: 2;
+}
+
+.store h1{ 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    text-align: center;
+    font-size:2vw;      
+}
+
+.store{ 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    padding-right: 4vw;
+}
+
+.question h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    /*text-align: center;*/
+    font-size:2vw;
+}
+
+.question{
+    padding-left: 15vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey; 
+    
+} 
+
+.location{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    text-align: center;
+}
+
+
+
+.container{
+
+}
+
+.swiper{
+    width: 80%;
+    height:fit-content;
+}
+
+.swiper-slide img{
+    width: 20%;
+}
+
+.child{
+    width: 50%;
+    padding: 20px;
+    border: 4px;
+    margin: auto;
+}
+
+.child iframe{
+    width: 40vw;
+    height: 20vw;
+}
+/*
+.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+/*
+   Hide the images by default */
+
+.slides{
+    display: none;
+
+    
+    
+  }
+
+
+
+  /* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  /* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  .slide-show{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    column-gap: 25px;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
+  .slideshow-content #blink{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 102, 0); 
+    font-size: 4vw;
+    font-weight: bolder;
+    text-align: center;
+
+  }
+
+  .slideshow-content .btn-special{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    text-align: center;
+   
+  }
+  .btn-special {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-special:hover {
+    background-color: #45a049;
+}
+
+  @media (min-width: 1025px) and (max-width: 1280px){
+    .slides img{
+        width: 700px;
+        height:350px;
+        border: 4px light #000; /* Replace #000 with the desired border color */
+        border-radius: 40px;
+
+    }
+
+
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px){
+    .slides img{
+        width: 500px;
+        height:250px;
+        border: 4px light #000; /* Replace #000 with the desired border color */
+        border-radius: 20px;
+        
+    }
+  }
+  

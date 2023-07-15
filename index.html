@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="shp.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    
+</head>
+
+<style>
+    @import url('https://fonts.cdnfonts.com/css/ocr-a-std');
+</style>
+
+
+<body>
+
+    <div class="overlay">
+        <div class="modal">
+            <h2> Age Verification</h2>
+            <input type="button" value="Above 21" onclick="above()"></input>
+            <p>OR</p>
+            <input type="button" value="Below 21" onclick="below()"></input>
+        </div>
+
+    </div>
+    <script src="bootstrap.bundle.min.js"></script>
+    <div class = "header">
+        <h1 >Oscor Liquors</h1>
+        <h3 class = 'title'>Sip,Cheers,Enjoy</h3>
+    </div>
+    
+    <div class="images">
+        
+        <marquee behavior="alternate" scrollamount="10">
+            <img  src="hen.jpg"  alt="Hennesy" >
+        
+    
+            <img  src="blue.jpg" alt="Blue Label" >
+            <img  src="buc.jpg" alt="Blue Label" >
+            <img  src="cr.jpg"  alt="Hennesy" >
+            <img  src="cw.jpg" alt="Blue Label" >
+            <img  src="dj.jpg" alt="Blue Label" >
+            <img  src="djs.jpg" alt="Blue Label" >
+            
+            
+            <img  src="gg.jpg" alt="Blue Label" >
+            <img  src="henvs.jpg" alt="Blue Label" >
+            <img  src="op.jpg" alt="Blue Label" >
+            <img  src="patron.jpg" alt="Blue Label" >
+            <img  src="rm.jpg" alt="Blue Label" >
+            <img  src="tito.jpg" alt="Blue Label" >
+            <img  src="brugal.jpg" alt="Blue Label" >
+            <img  src="chi.jpg" alt="Blue Label" >
+            <img  src="ciroc.jpg" alt="Blue Label" >
+            <img  src="dewar.jpg" alt="Blue Label" >
+            <img  src="disa.jpg" alt="Blue Label" >
+
+        </marquee>
+
+        
+    </div>
+    
+    
+    
+    <div class = 'info'>
+        <h4 class="infohead">Oscor Liquors</h4>
+        
+        <p> 
+            Oscor Liquor is a Northern Managment owned Liquor Store 
+                    located at 441 Prospect St,Methuen,MA 
+            nestled in a cozy corner, this boutique liquor store provides 
+            a warm and friendly atmosphere for customers to explore and discover 
+            their favorite selection of wines,beers, and liquors.In addition to its impressive liquor collection,
+            Oscor Liquors also hosts occasional tasting events, allowing customers
+            to sample new releases.
+            Whether you're feeling lucky or simply enjoy the thrill of playing, Oscor Liquors offers the convenience of 
+            lottery ticket sales.  
+ 
+        
+        </p>
+    </div>
+
+    
+
+
+    <!-- Slide show container-->
+    <div class="slide-show">
+        <div class="slideshow-content">
+            
+            
+            <div class="slides">
+                <img src = 'don.jpg' class="center"  >
+            </div>
+
+            <div class="slides">
+                <img src = 'don-julio-1942.jpg'  class="center">
+            </div>
+
+            <script src="shop.js"></script>
+
+        </div>
+
+        <div class="slideshow-content" >
+
+            <p id="blink">
+                <br>
+                
+                For Special Liquor Order
+            </p>
+            <script type="text/javascript">
+                var blink = 
+                    document.getElementById('blink');
+          
+                setInterval(function () {
+                    blink.style.opacity = 
+                    (blink.style.opacity == 0 ? 500 : 0);
+                }, 1000); 
+            </script>
+            <div class="button">
+                <button type="submit" class="btn-special">Click Here</button>
+            </div>
+            <script src="shop.js"></script>
+        </div>
+    </div> 
+
+
+    
+
+
+    
+        
+    <h1 class = 'contact'>Contact</h1>
+
+    <div class ='parent'>
+        <div class="child">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2931.129268391364!2d-71.1558359!3d42.72215459999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3071a64f53f39%3A0x9af2f30dcc527328!2s441%20Prospect%20St%2C%20Methuen%2C%20MA%2001844!5e0!3m2!1sen!2sus!4v1687985691169!5m2!1sen!2sus"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    
+
+
+
+    <div class="column">
+        
+            <div class = ' box store'>
+                <h1>STORE HOURS</h1>
+                <p class = 'location'> 441 Prospect Street,Methuen,MA 01844</p>
+                <p class = 'location'>TELEPHONE: 603-348-4716</p>
+                <p class = 'location'>Sunday - Wednesday: 10am to 10pm</p>
+                <p class = 'location'>Thursday - Saturday: 10am to 11pm</p>
+            </div>
+        
+        
+            <div class = 'box question'>
+                <h1>HAVE A Question?</h1>
+                <form>
+                    Name:<br> <input text ='text' name="name"><br>
+                    Email Address:<br> <input text="text" name="name"><br>
+                    Message:<br> <textarea name="name" rows="2" cols="15"></textarea>
+                </form>
+            </div>
+    </div>
+
+    
+
+   
+
+    
+
+    
+    
+   
+    
+    
+
+
+
+    
+</body>
+</html>
